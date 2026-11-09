@@ -1,0 +1,34 @@
+site_name: MRCD
+repo_url: https://sm20598.github.io/MRCD/
+nav:
+  - Home: README.md
+  - Dataset Information: user-guide.md
+  - Download: download.md
+  - SLAM Tutorial: slam-tutorial.md
+  - MRCD-challenge: challenge.md
+  - Contribute: contribute.md
+  - Contact: contact.md
+  - Gallery: gallery.md
+  - Team: team.md
+theme:
+  name: readthedocs
+  logo: img/logo.png
+extra_css:
+  - style.css
+plugins:
+  - resize-images:
+      source-dir: graphics
+      target-dir: graphics_resized
+      size: [600, 600]
+      extensions: ['.png']
+  - resize-images:
+      source-dir: screenshots
+      target-dir: screenshots_resized
+      size: [300, 600]
+      extensions: ['.png']
+  - resize-images:
+      source-dir: photos
+      target-dir: photos_resized
+      size: [300, 600]
+      extensions: ['.png']
+  - caption
