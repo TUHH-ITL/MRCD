@@ -10,7 +10,7 @@ Below you find links to download all 8 sequences as complete versions of MRCD, i
 
 | Version |
 |-|
- [Download Size in GB (Uncompressed Size in GB)](https://sm20598.github.io/downloads)|
+ [Download Size in GB (Uncompressed Size in GB)](https://TUHH-ITL.github.io/downloads)|
 
 ---
 
@@ -111,7 +111,7 @@ Town Trees takes place at the North of the campus and provides further slalom-st
 ---
 
 ## Docker Images
-Below you find our provided Docker images for each SLAM algorithm and the evaluation container. Please find the list and according repositories we used below. To download please klick on the links in Size column. For instructions on how to use, please refer to the [SLAM Tutorial](https://sm20598.github.io/slam-tutorial) page. We included our quick-and-dirty evaluation script in the container for reference, but recommend writing your own.
+Below you find our provided Docker images for each SLAM algorithm and the evaluation container. Please find the list and according repositories we used below. To download please klick on the links in Size column. For instructions on how to use, please refer to the [SLAM Tutorial](https://TUHH-ITL.github.io/slam-tutorial) page. We included our quick-and-dirty evaluation script in the container for reference, but recommend writing your own.
 
 Note that the RTAB-map container is based on Isaac ROS Visual SLAM container. If you want to run both you will only need the first.
 

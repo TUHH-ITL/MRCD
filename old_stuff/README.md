@@ -1,4 +1,4 @@
-# [MRCD: Mobile Robot Campus Dataset](https://sm20598.github.io)
+# [MRCD: Mobile Robot Campus Dataset](https://TUHH-ITL.github.io)
 
 Welcome to the MRCD dataset for outdoor mobile wheeled robotics! This ROS2 Humble dataset is designed to support algorithm development and benchmarking for localization, navigation and perception in real-world outdoor environments. The dataset features a variety of challenging outdoor sequence for outdoor mobile robots.
 
@@ -18,7 +18,7 @@ Welcome to the MRCD dataset for outdoor mobile wheeled robotics! This ROS2 Humbl
 * A handful of ROS2 Humble SOTA SLAM algorithms.
 
 ## Notes:
-We are open to contributions to our dataset. Please feel free to raise an [issue](https://github.com/SM20598/MRCD/issues) or open a [discussion](https://github.com/SM20598/MRCD/discussions) on our [Github](https://github.com/SM20598/MRCD) 🙃
+We are open to contributions to our dataset. Please feel free to raise an [issue](https://github.com/TUHH-ITL/MRCD/issues) or open a [discussion](https://github.com/TUHH-ITL/MRCD/discussions) on our [Github](https://github.com/TUHH-ITL/MRCD) 🙃
 
 ## Publication:
 For more information, please find our publication below.
