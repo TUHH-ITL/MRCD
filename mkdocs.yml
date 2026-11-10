@@ -1,5 +1,5 @@
 site_name: MRCD
-repo_url: https://sm20598.github.io/MRCD/
+repo_url: https://tuhh-itl.github.io/MRCD/
 nav:
   - Home: README.md
   - Dataset Information: user-guide.md
