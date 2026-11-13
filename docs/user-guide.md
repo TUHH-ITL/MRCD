@@ -64,7 +64,7 @@ Our dataset was recorded in ROS2 Humble. We recorded a total of 11 sequences in 
 ---
 
 ## Ground Truth
-As you see in the table above, MRCD contains a topic for discrete gound truth. Our ground truth is based on B-splines (for further information we recommend the works of [Sommer & Usenko](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sommer_Efficient_Derivative_Computation_for_Cumulative_B-Splines_on_Lie_Groups_CVPR_2020_paper.pdf) and [Nguyen](https://mcdviral.github.io/images/bspline_technical_note.pdf)). For external downloads, both continuous- and discrete-time ground truth sampled with 10 Hz, please visit our [Download](./download.md#sequences) page.
+As you see in the table above, MRCD contains a topic for discrete gound truth. Our ground truth is based on B-splines (for further information we recommend the works of [Sommer & Usenko](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sommer_Efficient_Derivative_Computation_for_Cumulative_B-Splines_on_Lie_Groups_CVPR_2020_paper.pdf) and [Nguyen](https://mcdviral.github.io/images/bspline_technical_note.pdf)). The ground truth describes the transformation between frames `map` and `base_link`, but is published on a separate topic to avoid transformation conflicts with SLAM outputs. For external downloads, both continuous- and discrete-time ground truth sampled with 10 Hz, please visit our [Download](./download.md#sequences) page.
 
 **Discrete time ground truth** is recommended for traditional benchmark evaluation. For this purpose, you can use *sampled-10Hz.csv* files. A snippet is given below.
 
